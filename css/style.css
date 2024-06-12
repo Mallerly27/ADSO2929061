@@ -135,6 +135,7 @@ body {
                 border-radius: 50px;
                 object-fit: cover;
                 border: 10px solid var(--color-1);
+                height: 200px;
                 width: 200px;
             }
             
@@ -168,7 +169,7 @@ body {
                 span {
                     align-items: center;
                     border-radius: 4px 0 0 4px;
-                    background-color: green;
+                    background-color: rgb(0, 128, 11);
                     display: flex;
                     justify-content: center;
                     font-size: 1.2rem;
@@ -260,6 +261,38 @@ body.emmet{
                 color: black;
                 span {
                     background-color: green
+                }
+            }
+        }
+    }
+}
+/*-------------------------*/
+/* H T M L */
+/*-------------------------*/
+body.html{
+/* COLOR DE LA PANTALLA */
+
+    background-color: #FFA10F;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23D98607' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
+
+
+
+   background-attachment: fixed;
+ 
+    main{
+        header{
+            h2 {
+                border-bottom: none;
+                max-width: 80%;
+                font-weight: 600;
+            }
+        }
+        menu {
+            a:is(:link, :visited){
+                color: rgb(16, 17, 16);
+                span {
+                    background-color: rgb(252, 119, 43)
                 }
             }
         }
