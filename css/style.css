@@ -288,6 +288,15 @@ body.html{
                 font-weight: 600;
             }
         }
+        section{
+            p{
+                color: yellow;
+                font-size: 2rem;
+            }
+        }
+
+       
+        
         menu {
             a:is(:link, :visited){
                 color: rgb(16, 17, 16);
