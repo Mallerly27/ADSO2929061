@@ -5,11 +5,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12-colors-alpha</title>
+    <title>12-colors alpha</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
-       
-       
+       figure {
+        background: url(images/mario.png) no-repeat center /cover;
+        padding: 0%;
+        height: 360px;
+        margin: 2rem auto;
+        width: 360px;
+       }
+
+       figure div {
+        height: calc(360px / 3);
+       }
+       div.color1 {
+        background-color: rgba(0,0,0,.4);
+       }
+       div.color2 {
+        background-color: hsla(0,100%,0%,.6);
+       }
+       div.color3 {
+        background-color: #000c;
+       }
 
     </style>
 </head>
@@ -26,12 +44,17 @@
     </nav>
     <main>
         <header>
-            <h1>12-colors-alpha</h1>
+            <h1>12-colors alpha</h1>
             <h2>The fourth alpha channel allows you to apply opacity or transparency to the color.</h2>
 
         </header>
         <section>
-           
+           <figure>
+            <div class="color1"></div>
+            <div class="color2"></div>
+            <div class="color3"></div>
+           </figure>
+
        
           
         </section>
